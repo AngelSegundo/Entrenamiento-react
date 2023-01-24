@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 20px;
+    background-color: aqua;
+}
+
+.creditCard-box {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+}
