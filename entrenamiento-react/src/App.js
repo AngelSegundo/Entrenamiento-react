@@ -1,5 +1,6 @@
 
 import './App.css';
+import Carousel from './Components/Carousel/Carousel';
 import CreditCard from './Components/CreditCard/CreditCard';
 import DriverCard from './Components/DriverCard/DriverCard';
 import LikeButton from './Components/LikeButton/LikeButton';
@@ -89,7 +90,14 @@ function App() {
       <hr></hr>
       <hr></hr>
 
-      
+      <Carousel
+        images={[
+          'https://randomuser.me/api/portraits/women/1.jpg',
+          'https://randomuser.me/api/portraits/men/1.jpg',
+          'https://randomuser.me/api/portraits/women/2.jpg',
+          'https://randomuser.me/api/portraits/men/2.jpg'
+        ]}
+      />
 
 
     </div>
