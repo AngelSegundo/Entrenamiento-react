@@ -2,6 +2,7 @@
 import './App.css';
 import CreditCard from './Components/CreditCard/CreditCard';
 import DriverCard from './Components/DriverCard/DriverCard';
+import LikeButton from './Components/LikeButton/LikeButton';
 import Rating from './Components/Rating/Rating';
 
 
@@ -83,6 +84,12 @@ function App() {
       <hr></hr>
       <hr></hr>
 
+      <LikeButton />
+
+      <hr></hr>
+      <hr></hr>
+
+      
 
 
     </div>
